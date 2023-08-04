@@ -1,0 +1,59 @@
+@media only screen and (max-width: 430px) {
+  .header-right {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .project {
+    flex-direction: column;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 26px;
+}
+
+.content {
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 4vw;
+}
+
+.center-info {
+  margin-top: 5rem;
+}
+
+.gif {
+  max-width: 550px;
+}
+
+.description {
+  align-self: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  margin-top: 3rem;
+}
