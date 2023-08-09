@@ -1,12 +1,9 @@
-@media only screen and (max-width: 430px) {
-  .header-right {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   .project {
     flex-direction: column;
+  }
+  .description {
+    margin-bottom: 3rem;
   }
 }
 
@@ -18,7 +15,7 @@ body {
 }
 
 .content {
-  width: 75%;
+  width: 65%;
 }
 
 a {
@@ -55,6 +52,5 @@ header {
   display: flex;
   justify-content: center;
   column-gap: 3rem;
-  row-gap: 3rem;
   margin-top: 3rem;
 }
