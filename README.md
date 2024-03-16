@@ -2,4 +2,4 @@
 
 Welcome to my Portfolio! I am open to suggestions :)
 
-[Click here!](diogocerutti.github.io)
+[Click here!](https://diogocerutti.github.io/)
