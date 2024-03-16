@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Consolas;
+  font-size: 26px;
+  color: #FFF;
+  background-color: #1D1D1D;
+}
+
+/* 350px and up */
+@media only screen and (min-width: 21.875em) {
+  .content {
+  width: 85%;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .content {
+  width: 75%;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+  .content {
+  width: 65%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #FFF; 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.header-right {
+  display: flex;
+  column-gap: 4vw;
+}
+
+.center-info {
+  margin-top: 5rem;
+}
