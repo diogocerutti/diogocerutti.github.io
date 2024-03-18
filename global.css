@@ -10,21 +10,21 @@ body {
 /* 350px and up */
 @media only screen and (min-width: 21.875em) {
   .content {
-  width: 85%;
+    width: 85%;
   }
 }
 
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 64em) {
   .content {
-  width: 75%;
+    width: 75%;
   }
 }
 
 /* Largest devices such as desktops (1280px and up) */
 @media only screen and (min-width: 80em) {
   .content {
-  width: 65%;
+    width: 65%;
   }
 }
 
@@ -46,4 +46,12 @@ header {
 
 .center-info {
   margin-top: 5rem;
+}
+
+.secret {
+  visibility: hidden;
+}
+
+.secret:hover .secret {
+  visibility: visible;
 }

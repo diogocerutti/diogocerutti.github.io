@@ -1,0 +1,6 @@
+/* Large devices such as laptops (1024px and down) */
+@media only screen and (max-width: 64em) {
+  .home-description {
+    font-size: 20px;
+  }
+}
