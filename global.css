@@ -48,10 +48,10 @@ header {
   margin-top: 5rem;
 }
 
-.secret {
+.secret-msg {
   visibility: hidden;
 }
 
-.secret:hover .secret {
+.secret:hover .secret-msg {
   visibility: visible;
 }
