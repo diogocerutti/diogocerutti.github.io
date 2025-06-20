@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1500px) {
+  .project {
+    flex-direction: column;
+  }
+  .description {
+    margin-bottom: 3rem;
+  }
+}
+
+.gif {
+  max-width: 500px;
+}
+
+.description {
+  align-self: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  margin-top: 3rem;
+}
