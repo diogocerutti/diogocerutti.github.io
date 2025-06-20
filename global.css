@@ -3,8 +3,8 @@ body {
   justify-content: center;
   font-family: Consolas;
   font-size: 26px;
-  color: #FFF;
-  background-color: #1D1D1D;
+  color: #fff;
+  background-color: #1d1d1d;
 }
 
 /* 350px and up */
@@ -30,7 +30,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #FFF; 
+  color: #fff;
 }
 
 header {
