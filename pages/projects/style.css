@@ -7,6 +7,12 @@
   }
 }
 
+@media only screen and (max-width: 501px) {
+  .description {
+    font-size: 20px;
+  }
+}
+
 .gif {
   max-width: 500px;
 }
@@ -15,6 +21,11 @@
   align-self: center;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.desc-title {
+  margin: 0px;
+  font-weight: bold;
 }
 
 .project {
