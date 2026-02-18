@@ -1,17 +1,10 @@
-.wrap {
-  display: flex;
-  justify-self: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 65%;
-}
-
 .project {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   column-gap: 3rem;
   row-gap: 3rem;
   margin-top: 3rem;
+  width: 100%;
 }
 
 .gif {
@@ -34,5 +27,38 @@
 @media only screen and (max-width: 1500px) {
   .project {
     flex-direction: column;
+  }
+  .gif {
+    align-self: center;
+  }
+  .container {
+    width: 75%;
+  }
+}
+
+/* até 775px */
+@media only screen and (max-width: 775px) {
+  .project {
+    flex-direction: column;
+  }
+  .gif {
+    align-self: center;
+  }
+  .container {
+    width: 85%;
+  }
+}
+
+/* até 675px */
+@media only screen and (max-width: 675px) {
+  .project {
+    flex-direction: column;
+  }
+  .gif {
+    align-self: center;
+    max-width: 74.074vw;
+  }
+  .container {
+    width: 85%;
   }
 }

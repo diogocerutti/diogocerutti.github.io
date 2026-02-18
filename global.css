@@ -34,7 +34,9 @@ header {
   display: flex;
   justify-content: space-between;
   font-size: 17px;
-  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 10px;
 }
 
 .header-right {
@@ -57,7 +59,9 @@ footer {
   font-size: 15px;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 10px;
 }
 
 .footer-icons {
@@ -77,20 +81,4 @@ footer {
 
 .secret:hover .secret-msg {
   visibility: visible;
-}
-
-/* < 320px */
-@media only screen and (min-width: 0px) {
-}
-
-/* 320px and up */
-@media only screen and (min-width: 320px) {
-}
-
-/* Large devices such as laptops (1024px and up) */
-@media only screen and (min-width: 1024px) {
-}
-
-/* Largest devices such as desktops (1280px and up) */
-@media only screen and (min-width: 1280px) {
 }
