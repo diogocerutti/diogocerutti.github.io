@@ -82,3 +82,17 @@ footer {
 .secret:hover .secret-msg {
   visibility: visible;
 }
+
+/* até 1500px */
+@media only screen and (max-width: 1500px) {
+  .container {
+    width: 75%;
+  }
+}
+
+/* até 775px */
+@media only screen and (max-width: 775px) {
+  .container {
+    width: 100%;
+  }
+}

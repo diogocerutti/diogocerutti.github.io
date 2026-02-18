@@ -31,22 +31,6 @@
   .gif {
     align-self: center;
   }
-  .container {
-    width: 75%;
-  }
-}
-
-/* até 775px */
-@media only screen and (max-width: 775px) {
-  .project {
-    flex-direction: column;
-  }
-  .gif {
-    align-self: center;
-  }
-  .container {
-    width: 85%;
-  }
 }
 
 /* até 675px */
@@ -57,8 +41,5 @@
   .gif {
     align-self: center;
     max-width: 74.074vw;
-  }
-  .container {
-    width: 85%;
   }
 }
